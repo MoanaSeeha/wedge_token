@@ -1,0 +1,261 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.mask_image::before {
+  position: absolute;
+  right: 30%;
+  top: 25%;
+  content: "";
+  display: block;
+  background-image: linear-gradient(
+    135deg,
+    rgba(13, 66, 178, 0) 15%,
+    #1c62d8 50%,
+    rgba(13, 66, 178, 0) 80%
+  );
+  border-radius: 50%;
+  height: 400px;
+  width: 400px;
+  -webkit-filter: blur(80px);
+  filter: blur(80px);
+  z-index: 1;
+}
+
+.mask-features {
+  width: 420px;
+  height: 900px;
+  transform: translateY(-30%);
+  left: auto;
+  right: 0;
+  position: absolute;
+  top: 0;
+  z-index: 1;
+  overflow: hidden;
+}
+
+.mask-features::before {
+  display: block;
+  background-image: url("../public/images/mask-line-a.png");
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: 100% 50%;
+  z-index: 3;
+}
+
+.mask-features::after {
+  background-image: linear-gradient(
+    135deg,
+    rgba(13, 66, 178, 0) 15%,
+    #28298a 50%,
+    rgba(13, 66, 178, 0) 80%
+  );
+  right: auto;
+  left: 30%;
+  position: absolute;
+  right: 30%;
+  top: 25%;
+  content: "";
+  display: block;
+  background-image: linear-gradient(
+    135deg,
+    rgba(13, 66, 178, 0) 15%,
+    #1c62d8 50%,
+    rgba(13, 66, 178, 0) 80%
+  );
+  border-radius: 50%;
+  height: 400px;
+  width: 400px;
+  -webkit-filter: blur(80px);
+  filter: blur(80px);
+  z-index: 1;
+}
+
+.section-head-s2:before {
+  top: 60px;
+  margin-left: -80px;
+  background: #41faa4;
+}
+.section-head-s2:before,
+.section-head-s2:after {
+  position: absolute;
+  left: 50%;
+  height: 1px;
+  width: 110px;
+  content: "";
+  transform: rotate(-45deg);
+  z-index: 1;
+  opacity: 0.4;
+}
+
+.section-head-s2:after {
+  top: 5px;
+  margin-left: -50px;
+  background: #7ab9ff;
+}
+.section-head-s2:before,
+.section-head-s2:after {
+  position: absolute;
+  left: 50%;
+  height: 1px;
+  width: 110px;
+  content: "";
+  transform: rotate(-45deg);
+  z-index: 1;
+  opacity: 0.4;
+}
+
+.home-bg {
+  background: url("../public/images/header-overlay.png") 0 0 no-repeat,
+    url("../public/images/header-bg-azure.png") 50% 100% no-repeat;
+  background-size: contain, cover;
+}
+
+.btn.btn-simple .fa:before {
+  font-size: 12px;
+}
+.fa-send:before,
+.fa-paper-plane:before {
+  content: "\f1d8";
+}
+
+.tokenomics::after {
+  background: linear-gradient(to top, #1b30a4 15%, rgba(13, 66, 178, 0) 100%);
+    height: 80%;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.mask-tokennomics {
+  width: 420px;
+  height: 900px;
+  /* transform: translateY(-30%); */
+  left: 0;
+  right: auto;
+  position: absolute;
+  top: 0;
+  z-index: 1;
+  overflow: hidden;
+}
+
+.mask-tokennomics::before {
+  display: block;
+  background-image: url("../public/images/mask-line-b.png");
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: 100% 50%;
+  z-index: 3;
+}
+
+.mask-tokennomics::after {
+  background-image: linear-gradient(
+    135deg,
+    rgba(13, 66, 178, 0) 15%,
+    #28298a 50%,
+    rgba(13, 66, 178, 0) 80%
+  );
+  right: auto;
+  left: 30%;
+  position: absolute;
+  right: 30%;
+  top: 25%;
+  content: "";
+  display: block;
+  background-image: linear-gradient(
+    135deg,
+    rgba(13, 66, 178, 0) 15%,
+    #1c62d8 50%,
+    rgba(13, 66, 178, 0) 80%
+  );
+  border-radius: 50%;
+  height: 400px;
+  width: 400px;
+  -webkit-filter: blur(80px);
+  filter: blur(80px);
+  z-index: 1;
+}
+
+.countdown-box {
+  background-image: linear-gradient(to right, #16a3fe 0%, #41faa4 100%);
+  background: linear-gradient(to right, #16a3fe 0%, #41faa4 100%);
+  -ms-border-radius: 10px;
+  border-radius: 10px;
+  padding: 40px 20px;
+  color: #3c3c3c;
+}
+
+.countdown-time{
+  font-size: 45px;
+  font-weight: 300;
+  line-height: 1;
+  display: block;
+  margin-bottom: 5px;
+  position: relative;
+}
+
+.countdown-second{
+  font-size: 45px;
+  font-weight: 300;
+  line-height: 1;
+  display: block;
+  margin-bottom: 5px;
+  position: relative;
+}
+
+.countdown-time:after {
+  position: absolute;
+  right: -18px;
+  bottom: 5px;
+  content: ":";
+  color: #fff;
+  font-size: 40px;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
