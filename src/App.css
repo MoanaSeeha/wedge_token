@@ -188,16 +188,16 @@
 }
 
 .mask-tokennomics::after {
-  background-image: linear-gradient(
+  /* background-image: linear-gradient(
     135deg,
     rgba(13, 66, 178, 0) 15%,
     #28298a 50%,
     rgba(13, 66, 178, 0) 80%
-  );
+  ); */
   right: auto;
-  left: 30%;
+  left: -25%;
   position: absolute;
-  right: 30%;
+  /* right: 30%; */
   top: 25%;
   content: "";
   display: block;

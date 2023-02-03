@@ -35,7 +35,7 @@ const Features = () => {
 
           }} /></div>
         </div>
-        <a class=" text-sm font-semibold" href="https://t.me/WedgeFinanceOfficial">
+        <a className=" text-sm font-semibold" href="https://t.me/WedgeFinanceOfficial">
           Join us on Telegram</a>
       </div>
     </div>
