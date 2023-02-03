@@ -103,6 +103,61 @@
   z-index: 1;
 }
 
+.mask-contact {
+  width: 420px;
+  height: 900px;
+  transform: translateY(-30%);
+  left: auto;
+  right: 0;
+  position: absolute;
+  top: 0;
+  z-index: 1;
+  overflow: hidden;
+}
+
+.mask-contact::before {
+  display: block;
+  background-image: url("../public/images/mask-line-a.png");
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: 100% 50%;
+  z-index: 3;
+}
+
+.mask-contact::after {
+  background-image: linear-gradient(
+    135deg,
+    rgba(13, 66, 178, 0) 15%,
+    #28298a 50%,
+    rgba(13, 66, 178, 0) 80%
+  );
+  right: auto;
+  left: 30%;
+  position: absolute;
+  right: 30%;
+  top: 25%;
+  content: "";
+  display: block;
+  background-image: linear-gradient(
+    135deg,
+    rgba(13, 66, 178, 0) 15%,
+    #1c62d8 50%,
+    rgba(13, 66, 178, 0) 80%
+  );
+  border-radius: 50%;
+  height: 400px;
+  width: 400px;
+  -webkit-filter: blur(80px);
+  filter: blur(80px);
+  z-index: 1;
+}
+
 .section-head-s2:before {
   top: 60px;
   margin-left: -80px;
@@ -153,11 +208,11 @@
 
 .tokenomics::after {
   background: linear-gradient(to top, #1b30a4 15%, rgba(13, 66, 178, 0) 100%);
-    height: 80%;
-    width: 100%;
-    position: absolute;
-    bottom: 0;
-    left: 0;
+  height: 80%;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
 }
 
 .mask-tokennomics {
@@ -224,7 +279,7 @@
   color: #3c3c3c;
 }
 
-.countdown-time{
+.countdown-time {
   font-size: 45px;
   font-weight: 300;
   line-height: 1;
@@ -233,7 +288,7 @@
   position: relative;
 }
 
-.countdown-second{
+.countdown-second {
   font-size: 45px;
   font-weight: 300;
   line-height: 1;
@@ -249,6 +304,60 @@
   content: ":";
   color: #fff;
   font-size: 40px;
+}
+
+table {
+  width: 100%;
+  font-size: 15px;
+}
+
+th {
+  padding: 10px 0;
+}
+
+tr {
+  border-radius: 10px;
+}
+
+td {
+  text-align: center;
+  padding: 8px 0;
+}
+
+.vertical-timeline-element-content p {
+  font-size: 15px !important;
+}
+
+.tokenomics-table tbody tr {
+  background: rgb(63, 25, 139);
+
+  margin: 10px 10px;
+  border-bottom: #0d42b2 3px solid;
+}
+
+.contact-icon_button {
+  background-image: linear-gradient(to right, #0b92ec 0%, #04d171 100%);
+  color: #3455ff;
+  position: relative;
+  font-size: 0;
+  line-height: 38px;
+  height: 38px;
+  width: 38px;
+  text-align: center;
+  border-radius: 50%;
+  margin-right: 15px;
+}
+
+.contact-icon_button::after {
+  position: absolute;
+  content: "";
+  top: 2px;
+  left: 2px;
+  width: 34px;
+  height: 34px;
+  border-radius: 50%;
+  background: #0d42b2;
+  z-index: 0;
 }
 
 @keyframes App-logo-spin {

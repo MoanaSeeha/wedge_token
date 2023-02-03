@@ -7,6 +7,8 @@ import About from './pages/about';
 import Description from './pages/desc';
 import Features from './pages/features';
 import Tokenomics from './pages/tokenomics';
+import Roadmap from './pages/roadmap';
+import Contact from './pages/contact';
 
 function App() {
   return (
@@ -19,6 +21,8 @@ function App() {
         <Description/>
         <Features/>
         <Tokenomics/>
+        <Roadmap/>
+        <Contact/>
       </div>
     </div>
   );

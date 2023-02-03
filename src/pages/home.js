@@ -27,7 +27,7 @@ const Home = () => {
         <div className='w-1/2'>
           <img src="" alt="_logo" />
         </div>
-        <div className='w-full flex justify-between items-center px-4'>
+        <div className='w-full flex justify-between items-center px-4 mt-20'>
           <div className='w-[15%] text-start'>
             <span className=' capitalize '>Our <br />Partners</span>
           </div>
