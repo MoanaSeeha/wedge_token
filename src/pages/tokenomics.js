@@ -3,7 +3,7 @@ import GradientButton2 from "../components/GradientButton_2"
 
 const Tokenomics = () => {
   return (<div className="bg-[#0d42b2] pt-[120px] relative tokennomics">
-    <div className="flex flex-col w-full z-40 relative">
+    <div className="flex flex-col lg:w-full mx-auto w-11/12 z-40 relative">
       <div className="flex flex-col w-1/2 mx-auto">
         <div className=" text-4xl mb-5 section-head-s2 relative flex flex-col">
           <span className="text-[#7ab9ff] font-semibold text-base">TOKENS</span>
@@ -13,37 +13,37 @@ const Tokenomics = () => {
           To make sure our early investors are well compensated, we are going to list the token at 0.00005$ so we can get the ball rolling
         </span>
       </div>
-      <div className="flex max-w-[1140px] mx-auto w-full">
-        <div className="w-[55%] flex flex-wrap">
-          <div className="w-1/2 mb-10"><div className="flex flex-col">
+      <div className="flex flex-col sm:flex-row sm:items-start items-center max-w-[1140px] mx-auto w-full">
+        <div className="sm:w-[55%] w-[90%] flex flex-wrap">
+          <div className="sm:w-1/2 w-1/3 mb-10"><div className="flex flex-col">
             <div className="relative ml-5 text-start text-lg font-bold flex flex-col">
               <span className="bg-[#41faa4] absolute top-[22%] -left-5 rounded-full w-[5px] h-[5px]" />Seed Sale
               <span className="text-[#7ab9ff] font-normal">0.000005$</span>
             </div>
           </div>
           </div>
-          <div className="w-1/2 mb-10"><div className="flex flex-col">
+          <div className="sm:w-1/2 w-1/3 mb-10"><div className="flex flex-col">
             <div className="relative ml-5 text-start text-lg font-bold flex flex-col">
               <span className="bg-[#41faa4] absolute top-[22%] -left-5 rounded-full w-[5px] h-[5px]" />Seed Sale
               <span className="text-[#7ab9ff] font-normal">0.000005$</span>
             </div>
           </div>
           </div>
-          <div className="w-1/2 mb-10"><div className="flex flex-col">
+          <div className="sm:w-1/2 w-1/3 mb-10"><div className="flex flex-col">
             <div className="relative ml-5 text-start text-lg font-bold flex flex-col">
               <span className="bg-[#41faa4] absolute top-[22%] -left-5 rounded-full w-[5px] h-[5px]" />Seed Sale
               <span className="text-[#7ab9ff] font-normal">0.000005$</span>
             </div>
           </div>
           </div>
-          <div className="w-1/2 mb-10"><div className="flex flex-col">
+          <div className="sm:w-1/2 w-1/3 mb-10"><div className="flex flex-col">
             <div className="relative ml-5 text-start text-lg font-bold flex flex-col">
               <span className="bg-[#41faa4] absolute top-[22%] -left-5 rounded-full w-[5px] h-[5px]" />Seed Sale
               <span className="text-[#7ab9ff] font-normal">0.000005$</span>
             </div>
           </div>
           </div>
-          <div className="w-1/2 mb-10"><div className="flex flex-col">
+          <div className="sm:w-1/2 w-1/3 mb-10"><div className="flex flex-col">
             <div className="relative ml-5 text-start text-lg font-bold flex flex-col">
               <span className="bg-[#41faa4] absolute top-[22%] -left-5 rounded-full w-[5px] h-[5px]" />Seed Sale
               <span className="text-[#7ab9ff] font-normal">ETH, BNB</span>
@@ -51,7 +51,7 @@ const Tokenomics = () => {
           </div>
           </div>
         </div>
-        <div className="w-[45%]">
+        <div className="sm:w-[45%] w-[90%]">
           <div className="countdown-box flex flex-col items-center">
             <span className=" text-xl font-semibold text-white pb-5">
               ICO WILL START IN
@@ -75,7 +75,7 @@ const Tokenomics = () => {
         </div>
       </div>
       <div className="flex flex-col max-w-[1140px] mx-auto w-full mt-10">
-        <span className=" text-6xl font-bold">TOKENOMICS</span>
+        <span className=" sm:text-6xl text-4xl font-bold mb-5">TOKENOMICS</span>
         <div className="xl:w-1/4 md:w-1/3 w-1/2 mx-auto overflow-visible">
           <PieChart className="w-full h-full overflow-visible"
             animate
@@ -99,7 +99,7 @@ const Tokenomics = () => {
         </div>
       </div>
       <div className="flex flex-col max-w-[1140px] mx-auto w-full mt-10">
-        <span className=" text-6xl font-bold">VESTING SCHEDULE</span>
+        <span className=" sm:text-6xl text-4xl mb-5 font-bold">VESTING SCHEDULE</span>
         <div className="xl:w-[90%] md:w-[95%] w-[99%] mx-auto overflow-visible">
           <table className="tokenomics-table">
             <thead>

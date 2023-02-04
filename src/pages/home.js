@@ -4,13 +4,14 @@ const Home = () => {
   return (
     <div className='flex flex-wrap justify-center home-bg z-10'>
       <div className='flex flex-wrap w-full h-full pt-127 max-w-6xl '>
-        <div className='w-1/2 px-4 flex flex-col items-start'>
+        <div className='md:w-1/2 w-full px-4 flex flex-col items-start'>
           <span className=' text-5xl mb-3 text-start font-semibold'>Wedge Finance ($WEDGE)</span>
           <span className=' font-semibold mb-4'>Wedge Finance Token holders will benefit from 3 main features:</span>
           <div className='flex flex-col w-full items-start text-lg mb-5'>
-            <span>– Frictionless Transactions</span>
-            <span>– Full Life Cycle</span>
-            <span>– Realistic ROI</span>
+            <span>- 1 Million Weekly Lottery</span>
+            <span>- CashBack Rewards up to 20%</span>
+            <span>- Buy Properties in Dubai with Wedge Token</span>
+            <span>- Buy Anything online At Cost</span>
           </div>
           <div className='flex flex-wrap'>
             <div className=' mr-5 my-3'><GradientButton title="DEX-TRADE.COM LAUNCHPAD" onClickBtn={() => {
@@ -24,18 +25,18 @@ const Home = () => {
             }} link="t.me/WedgeFinanceOfficial"/></div>
           </div>
         </div>
-        <div className='w-1/2'>
-          <img src="" alt="_logo" />
+        <div className='w-1/2 hidden md:block'>
+          <img src={`${process.env.PUBLIC_URL}/images/logo.png`} alt="" />
         </div>
-        <div className='w-full flex justify-between items-center px-4 mt-20'>
-          <div className='w-[15%] text-start'>
+        <div className='w-full flex flex-wrap justify-between items-center px-4 mt-20'>
+          <div className='w-[15%] min-w-[100px] text-start'>
             <span className=' capitalize '>Our <br />Partners</span>
           </div>
-          <div className='w-[15%]'><img src={`${process.env.PUBLIC_URL}/images/obsidian_council.png`} alt="" /></div>
-          <div className='w-[15%]'><img src={`${process.env.PUBLIC_URL}/images/download-removebg-preview-1.png`} alt="" /></div>
-          <div className='w-[15%]'><img src={`${process.env.PUBLIC_URL}/images/dextools-logo-removebg-preview.png`} alt="" /></div>
-          <div className='w-[15%]'><img src={`${process.env.PUBLIC_URL}/images/bitkeep-logo.png`} alt="" /></div>
-          <div className='w-[15%]'><img src={`${process.env.PUBLIC_URL}/images/BscScan-logo-1.webp`} alt="" /></div>
+          <div className='w-[15%] min-w-[100px]'><img src={`${process.env.PUBLIC_URL}/images/obsidian_council.png`} alt="" /></div>
+          <div className='w-[15%] min-w-[100px]'><img src={`${process.env.PUBLIC_URL}/images/download-removebg-preview-1.png`} alt="" /></div>
+          <div className='w-[15%] min-w-[100px]'><img src={`${process.env.PUBLIC_URL}/images/dextools-logo-removebg-preview.png`} alt="" /></div>
+          <div className='w-[15%] min-w-[100px]'><img src={`${process.env.PUBLIC_URL}/images/bitkeep-logo.png`} alt="" /></div>
+          <div className='w-[15%] min-w-[100px]'><img src={`${process.env.PUBLIC_URL}/images/BscScan-logo-1.webp`} alt="" /></div>
         </div>
       </div>
     </div>)

@@ -11,8 +11,8 @@ const Contact = () => {
           <span className=" font-bold">Get In Touch</span>
         </div>
       </div>
-      <div className="flex w-4/5 mx-auto items-start justify-between">
-        <div className="w-[45%] flex flex-col space-y-3">
+      <div className="flex md:flex-row flex-col w-4/5 mx-auto items-start justify-between">
+        <div className="md:w-[45%] w-5/6 mx-auto  flex flex-col space-y-3">
           <span className="text-start mb-10">Any question? Reach out to us and we’ll get back to you shortly.</span>
           <div className="flex items-center text-[#41faa4] group cursor-pointer">
             <a target="_blank" href={"https://t.me/wedgetoken"} rel="noreferrer" className="flex items-center">
@@ -46,12 +46,15 @@ const Contact = () => {
             </a>
           </div>
         </div>
-        <div className="w-[50%] flex flex-col space-y-5">
+        <div className="md:w-[50%] w-5/6 mx-auto flex flex-col space-y-5">
           <Input variant="standard" label="Your Name" success />
           <Input variant="standard" label="Your Email" success />
           <Textarea variant="standard" label="Your Message" success />
           <div className="flex"><GradientButton title="SUBMIT" onClickBtn={() => {}}/></div>
         </div>
+      </div>
+      <div className="bg-[#0d42b2] pt-[120px] relative h-[200px]">
+      <img src={`${process.env.PUBLIC_URL}/images/logo.png`} alt="" className="w-auto h-full mx-auto"/>
       </div>
     </div>
     <div className="mask-contact"></div>

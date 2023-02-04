@@ -1,7 +1,7 @@
 const About = () => {
   return (<div className=" xl:pt-[120px] pt-[112px] relative max-w-6xl mx-auto text-white">
-    <div className="flex justify-between w-full z-20 items-center">
-      <div className="w-2/5 px-4 flex items-start flex-col space-y-4">
+    <div className="relative flex flex-wrap justify-between w-full z-20 items-center">
+      <div className="md:w-2/5 w-3/4 px-4 flex items-start flex-col space-y-4">
         <span className=" text-[#16a4fd]">ABOUT</span>
         <span className=" text-4xl font-bold">Wedge Finance Token</span>
         <div className="flex flex-col items-start space-y-4 text-[#7ab9ff]">
@@ -14,11 +14,11 @@ const About = () => {
         Wedge Finance Provide Frictionless Decentralised Finance transactions in a block chain Environment
         </div>
       </div>
-      <div className="w-2/5 flex items-end">
-        <img src={`${process.env.PUBLIC_URL}/images/section1.png`}/>
+      <div className="md:w-2/5 w-1/4 flex items-end">
+        <img src={`${process.env.PUBLIC_URL}/images/section1.png`} alt=""/>
       </div>
     </div>
-    <div className=" absolute left-0 top-0 w-[400px] h-[600px]">
+    <div className=" absolute left-0 top-0 sm:w-[400px] w-[200px] h-[600px]">
       <div className="mask_image">
       </div>
     </div>
