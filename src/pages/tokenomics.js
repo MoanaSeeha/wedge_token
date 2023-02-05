@@ -89,11 +89,11 @@ const Tokenomics = () => {
             labelPosition={90}
             label={({ dataEntry }) => dataEntry.title}
             labelStyle={(index) => ({
-              fill: "#1b1b41",
+              fill: "#f4e4f4",
               fontSize: '4px',
               fontFamily: 'sans-serif'
             })}
-            lineWidth={30}
+            lineWidth={40}
           // segmentsShift={(index) => (0.5)}
           />
         </div>
