@@ -11,7 +11,7 @@ const Description = () => {
           CashBack up to 30%, allowing holders to buy anything online with 90% Discount
           </span>
           <span>
-          LastBuy Any Property in Duba
+          LastBuy Any Property in Dubai
           </span>
         </div>
       </div>
