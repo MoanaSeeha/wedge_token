@@ -6,9 +6,9 @@ const About = () => {
         <span className=" text-4xl font-bold">Wedge Finance Token</span>
         <div className="flex flex-col items-start space-y-4 text-[#7ab9ff]">
           <div className="relative ml-5"><span className="bg-[#41faa4] absolute top-[40%] -left-5 rounded-full w-[5px] h-[5px]"/>Name: Wedge Finance Token</div>
-          <div className="relative ml-5"><span className="bg-[#41faa4] absolute top-[40%] -left-5 rounded-full w-[5px] h-[5px]"/>Ticker: $WEDGE</div>
-          <div className="relative ml-5"><span className="bg-[#41faa4] absolute top-[40%] -left-5 rounded-full w-[5px] h-[5px]"/>Contract Address: ​Coming Soon</div>
-          <div className="relative ml-5"><span className="bg-[#41faa4] absolute top-[40%] -left-5 rounded-full w-[5px] h-[5px]"/>Chain: BNB Smart Chain (BEP20)</div>
+          <div className="relative ml-5"><span className="bg-[#41faa4] absolute top-[40%] -left-5 rounded-full w-[5px] h-[5px]"/>Ticker: WEDGE</div>
+          <div className="relative ml-5  text-start"><span className="bg-[#41faa4] absolute top-[40%] -left-5 rounded-full w-[5px] h-[5px]"/>Contract Address: 0x0E4bE24920a04b3AF1A5fa29a8aB2C263F06Dc19</div>
+          <div className="relative ml-5"><span className="bg-[#41faa4] absolute top-[40%] -left-5 rounded-full w-[5px] h-[5px] text-start"/>Chain: BNB (BEP20)</div>
         </div>
         <div className=" text-lg font-semibold text-start">
         Wedge Finance Provide Frictionless Decentralised Finance transactions in a block chain Environment

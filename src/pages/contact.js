@@ -53,7 +53,7 @@ const Contact = () => {
           <div className="flex"><GradientButton title="SUBMIT" onClickBtn={() => {}}/></div>
         </div>
       </div>
-      <div className="bg-[#0d42b2] pt-[120px] relative h-[200px]">
+      <div className="bg-[#0c0c17] pt-[120px] relative h-[200px]">
       <img src={`${process.env.PUBLIC_URL}/images/logo.png`} alt="" className="w-auto h-full mx-auto"/>
       </div>
     </div>

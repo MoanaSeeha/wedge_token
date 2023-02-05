@@ -3,7 +3,7 @@ import 'react-vertical-timeline-component/style.min.css';
 
 
 const Roadmap = () => {
-  return (<div className="bg-[#0d42b2] pt-[120px] relative tokennomics">
+  return (<div className="bg-[#0c0c17] pt-[120px] relative tokennomics">
     <div className="flex flex-col w-full z-40 relative">
       <div className="flex relative flex-col w-1/2 mx-auto">
         <div className=" text-4xl mb-5 section-head-s2 relative flex flex-col">

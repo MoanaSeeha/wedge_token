@@ -2,7 +2,7 @@ import { PieChart } from "react-minimal-pie-chart"
 import GradientButton2 from "../components/GradientButton_2"
 
 const Tokenomics = () => {
-  return (<div className="bg-[#0d42b2] pt-[120px] relative tokennomics">
+  return (<div className="bg-[#0c0c17] pt-[120px] relative tokennomics">
     <div className="flex flex-col lg:w-full mx-auto w-11/12 z-40 relative">
       <div className="flex flex-col w-1/2 mx-auto">
         <div className=" text-4xl mb-5 section-head-s2 relative flex flex-col">

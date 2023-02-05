@@ -8,10 +8,10 @@ const Home = () => {
           <span className=' text-5xl mb-3 text-start font-semibold'>Wedge Finance ($WEDGE)</span>
           <span className=' font-semibold mb-4'>Wedge Finance Token holders will benefit from 3 main features:</span>
           <div className='flex flex-col w-full items-start text-lg mb-5'>
-            <span>- 1 Million Weekly Lottery</span>
-            <span>- CashBack Rewards up to 20%</span>
-            <span>- Buy Properties in Dubai with Wedge Token</span>
-            <span>- Buy Anything online At Cost</span>
+            <span>- CashTokenBack (Up to 15% Immediately!)</span>
+            <span className="text-start">- WedgeApp - Buy Anything Anywhere online with up to 90% DISCOUNT </span>
+            <span>- 1 Million Lottery Prize</span>
+            <span>- Buy Any Property in Dubai</span>
           </div>
           <div className='flex flex-wrap'>
             <div className=' mr-5 my-3'><GradientButton title="DEX-TRADE.COM LAUNCHPAD" onClickBtn={() => {
