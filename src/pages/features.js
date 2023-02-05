@@ -5,7 +5,11 @@ const Features = () => {
     <div className="relative max-w-[1140px] mx-auto ">
       <div className="flex flex-col items-center mx-auto md:w-2/3 w-11/12">
         <span className=" text-4xl mb-5 section-head-s2 relative font-bold">FEATURES</span>
-        <span className=" mb-10 text-white">CashTokenBack (Up to 15% Immediately!)</span>
+        <span className=" mb-10 text-white flex-col flex">
+<span>CashTokenBack (Up to 15% Immediately!)</span>
+<span>WedgeApp - Buy Anything Anywhere online with up to 90% DISCOUNT</span>
+<span>1 Million Lottery Prize</span>
+<span>Buy Any Property in Dubai</span></span>
         <div>
           <img src={`${process.env.PUBLIC_URL}/images/liquidity_provider.7e8372e6-removebg-preview.png`} alt="features_1"
             className=" max-w-[300px]"
