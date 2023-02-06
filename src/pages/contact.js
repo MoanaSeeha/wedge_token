@@ -15,7 +15,7 @@ const Contact = () => {
         <div className="md:w-[45%] w-5/6 mx-auto  flex flex-col space-y-3">
           <span className="text-start mb-10">Any question? Reach out to us and we’ll get back to you shortly.</span>
           <div className="flex items-center text-[#41faa4] group cursor-pointer">
-            <a target="_blank" href={"https://t.me/wedgetoken"} rel="noreferrer" className="flex items-center">
+            <a target="_blank" href={"https://t.me/WedgeFinanceOfficial"} rel="noreferrer" className="flex items-center">
               <div className="contact-icon_button flex">
                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6 z-10 relative top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2">
                   <path strokeLinecap="round" strokeLinejoin="round" d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 002.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-.282.376-.769.542-1.21.38a12.035 12.035 0 01-7.143-7.143c-.162-.441.004-.928.38-1.21l1.293-.97c.363-.271.527-.734.417-1.173L6.963 3.102a1.125 1.125 0 00-1.091-.852H4.5A2.25 2.25 0 002.25 4.5v2.25z" />
@@ -25,7 +25,7 @@ const Contact = () => {
             </a>
           </div>
           <div className="flex items-center text-[#41faa4] group cursor-pointer">
-            <a target="_blank" href={"https://t.me/wedgetoken"} rel="noreferrer" className="flex items-center">
+            <a target="_blank" href={"https://t.me/WedgeFinanceOfficial"} rel="noreferrer" className="flex items-center">
               <div className="contact-icon_button flex">
                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6 z-10 relative top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2">
                   <path strokeLinecap="round" strokeLinejoin="round" d="M21.75 6.75v10.5a2.25 2.25 0 01-2.25 2.25h-15a2.25 2.25 0 01-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0019.5 4.5h-15a2.25 2.25 0 00-2.25 2.25m19.5 0v.243a2.25 2.25 0 01-1.07 1.916l-7.5 4.615a2.25 2.25 0 01-2.36 0L3.32 8.91a2.25 2.25 0 01-1.07-1.916V6.75" />
@@ -36,7 +36,7 @@ const Contact = () => {
             </a>
           </div>
           <div className="flex items-center text-[#41faa4] group cursor-pointer">
-            <a target="_blank" href={"https://t.me/wedgetoken"} rel="noreferrer" className="flex items-center">
+            <a target="_blank" href={"https://t.me/WedgeFinanceOfficial"} rel="noreferrer" className="flex items-center">
               <div className="contact-icon_button flex">
                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6 z-10 relative top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2">
                   <path strokeLinecap="round" strokeLinejoin="round" d="M6 12L3.269 3.126A59.768 59.768 0 0121.485 12 59.77 59.77 0 013.27 20.876L5.999 12zm0 0h7.5" />
