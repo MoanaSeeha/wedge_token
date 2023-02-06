@@ -3,7 +3,7 @@ import GradientButton from "../components/GradientButton"
 const Home = () => {
   return (
     <div className='flex flex-wrap justify-center home-bg z-10'>
-      <div className='flex flex-wrap w-full h-full pt-127 max-w-6xl '>
+      <div className='flex flex-wrap w-full h-full pt-127 max-w-6xl justify-between'>
         <div className='md:w-2/3 w-full px-4 flex flex-col items-start'>
           <span className=' text-5xl mb-3 text-start font-semibold'>Wedge Finance ($WEDGE)</span>
           <span className=' font-semibold mb-4'>Wedge Finance Token holders will benefit from 3 main features:</span>
@@ -25,7 +25,7 @@ const Home = () => {
             }} link="t.me/WedgeFinanceOfficial"/></div>
           </div>
         </div>
-        <div className=' w-1/5 hidden md:block'>
+        <div className=' w-1/5 hidden md:flex justify-center items-center'>
           <img src={`${process.env.PUBLIC_URL}/images/logo.png`} alt="" />
         </div>
         <div className='w-full flex flex-wrap justify-between items-center px-4 mt-20'>
