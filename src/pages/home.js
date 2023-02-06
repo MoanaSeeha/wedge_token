@@ -25,7 +25,7 @@ const Home = () => {
             }} link="t.me/WedgeFinanceOfficial"/></div>
           </div>
         </div>
-        <div className='w-1/3 hidden md:block'>
+        <div className=' w-1/5 hidden md:block'>
           <img src={`${process.env.PUBLIC_URL}/images/logo.png`} alt="" />
         </div>
         <div className='w-full flex flex-wrap justify-between items-center px-4 mt-20'>
