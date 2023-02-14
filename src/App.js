@@ -28,12 +28,12 @@ function App() {
           <div className=" mt-5 mb-5 mr-4 h-6 w-7">
             <img src={`${process.env.PUBLIC_URL}/images/logo.png`} alt="logo" className="w-full h-full" />
           </div>
-          <div className="flex space-x-3 flex-wrap">
+          <div className="flex flex-wrap">
             {
               headerRoutes.map((r, i) => {
                 console.log(r.url, "_+_+_")
                 return (r?.url !== undefined ?
-                  <div className="text-white hover:text-green-300 transition-all cursor-pointer text-sm" key={i}>
+                  <div className="text-white mx-3 hover:text-green-300 transition-all cursor-pointer text-sm" key={i}>
                     <Scrollchor to={"#" + r.url}>
                       {r.name}
                     </Scrollchor>
