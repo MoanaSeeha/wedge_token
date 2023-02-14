@@ -24,8 +24,8 @@ function App() {
   return (
     <div className="App w-full text-white bg-[#0c0c17]">
       <div className="w-full sticky top-0 left-0 bg-[#092258] z-50">
-        <div className="flex justify-between max-w-6xl items-center sm:w-[85%] w-full mx-auto">
-          <div className=" mt-5 mb-5 mr-4 h-6 w-7">
+        <div className="flex sm:justify-between justify-center max-w-6xl items-center sm:w-[85%] w-full mx-auto">
+          <div className=" mt-5 mb-5 sm:mr-4 mr-0 h-6 w-7">
             <img src={`${process.env.PUBLIC_URL}/images/logo.png`} alt="logo" className="w-full h-full" />
           </div>
           <div className="flex flex-wrap">
