@@ -33,7 +33,7 @@ function App() {
               headerRoutes.map((r, i) => {
                 console.log(r.url, "_+_+_")
                 return (r?.url !== undefined ?
-                  <div className="text-white mx-3 hover:text-green-300 transition-all cursor-pointer text-sm" key={i}>
+                  <div className="text-white sm:mx-3 mx-1 hover:text-green-300 transition-all cursor-pointer sm:text-sm text-xs" key={i}>
                     <Scrollchor to={"#" + r.url}>
                       {r.name}
                     </Scrollchor>
