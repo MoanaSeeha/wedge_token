@@ -128,10 +128,10 @@ const Tokenomics = () => {
                 <td>Marketing & Research</td>
                 <td>10,000,000,000,000 </td>
               </tr>
-              
+
             </tbody>
           </table>
-          <span className=" text-gray-700 font-bold text-3xl text-start w-full inline-block ml-5">TOTAL 1,000,000,000,000,000</span>
+          <span className=" text-gray-700 font-bold text-3xl text-start w-full inline-block ml-5 break-all">TOTAL 1,000,000,000,000,000</span>
         </div>
       </div>
     </div>

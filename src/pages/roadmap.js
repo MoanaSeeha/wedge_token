@@ -82,9 +82,9 @@ const Roadmap = () => {
       </div>
       <div className=" xl:pt-[120px] pt-[112px] relative max-w-6xl mx-auto text-white z-10">
         <div className="relative flex flex-col-reverse  md:flex-row justify-between w-full z-20 items-center">
-          <div className="md:w-7/12 w-10/12 px-4 flex items-start flex-col space-y-4">
+          <div className="md:w-7/12 w-10/12 px-4 flex items-start flex-col space-y-4 break-all">
             <span className=" text-3xl font-bold text-start">How to add the contract in Binance and MetaMask Wallet</span>
-            <div className='flex flex-col w-full text-[#7ab9ff] font-semibold text-start space-y-4'>
+            <div className='flex flex-col w-full text-[#7ab9ff] font-semibold text-start space-y-4 break-all'>
               <p>Binance Smart Chain: </p>
               <p>1. Copy the contract below, click on the “+”  key at the bottom, </p>
               <p>2. Select “Custom Asset”, in the Contract Address box, </p>
@@ -92,7 +92,7 @@ const Roadmap = () => {
               <p>4. That’s All!</p>
               <p>the address is verified:</p>
               <a target="_blank" className='w-4/5' href={"https://bscscan.com/token/0x0e4be24920a04b3af1a5fa29a8ab2c263f06dc19"} rel="noreferrer">
-                <div className="text-[#41faa4] overflow-x-auto w-full break-words cursor-pointer hover:text-[#2fb275] transition-all font-bold">https://bscscan.com/token/0x0e4be24920a04b3af1a5fa29a8ab2c263f06dc19</div></a>
+                <div className="text-[#41faa4] overflow-x-auto w-full break-all cursor-pointer hover:text-[#2fb275] transition-all font-bold">https://bscscan.com/token/0x0e4be24920a04b3af1a5fa29a8ab2c263f06dc19</div></a>
             </div>
           </div>
           <div className="md:w-5/12 w-2/3 flex items-end">
