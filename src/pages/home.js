@@ -16,13 +16,13 @@ const Home = () => {
           <div className='flex flex-wrap'>
             <div className=' mr-5 my-3'><GradientButton title="DEX-TRADE.COM LAUNCHPAD" onClickBtn={() => {
 
-            }} link="dex-trade.com/ieo/wedge"/></div>
+            }} link="wildan-limited.sumupstore.com" /></div>
             <div className=' mr-5 my-3'><GradientButton title="WHITEPAPER" onClickBtn={() => {
-            }} link="wedge-v3.gitbook.io/wedge-finance-whitepaper/"/></div>
+            }} link="wedge-v3.gitbook.io/wedge-finance-whitepaper/" /></div>
             <div className=' mr-5 my-3'><GradientButton title="HOW TO BUY" onClickBtn={() => {
-            }} link="wedge-v3.gitbook.io/wedge-finance-whitepaper/"/></div>
+            }} link="wedge-v3.gitbook.io/wedge-finance-whitepaper/" /></div>
             <div className=' mr-5 my-3'><GradientButton title="TELEGRAM" onClickBtn={() => {
-            }} link="t.me/WedgeFinanceOfficial"/></div>
+            }} link="t.me/WedgeFinanceOfficial" /></div>
           </div>
         </div>
         <div className=' w-1/5 hidden md:flex justify-center items-center'>
