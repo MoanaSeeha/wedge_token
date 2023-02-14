@@ -5,7 +5,7 @@ const Home = () => {
     <div className='flex flex-wrap justify-center home-bg z-10'>
       <div className='flex flex-wrap w-full h-full pt-127 max-w-6xl justify-between'>
         <div className='md:w-2/3 w-full px-4 flex flex-col items-start'>
-          <span className=' text-5xl mb-3 text-start font-semibold'>Wedge Finance ($WEDGE)</span>
+          <span className=' text-5xl mb-3 text-start font-semibold break-all'>Wedge Finance ($WEDGE)</span>
           <span className=' font-semibold mb-4'>Wedge Finance Token holders will benefit from 3 main features:</span>
           <div className='flex flex-col w-full items-start text-lg mb-5'>
             <span>- CashTokenBack (Up to 15% Immediately!)</span>

@@ -11,13 +11,13 @@ import Roadmap from './pages/roadmap';
 import Contact from './pages/contact';
 
 const headerRoutes = [
-  { name: "HOME", url: "home" , component:<Home />},
-  { name: "ABOUT", url: "about" , component:<About />},
-  {component:<Description />},
-  {component:<Features />},
-  { name: "TOKENOMICS", url: "token" , component:<Tokenomics />},
-  { name: "ROADMAP", url: "roadmap" , component:<Roadmap />},
-  { name: "CONTACT US", url: "contact" , component:<Contact />},
+  { name: "HOME", url: "home", component: <Home /> },
+  { name: "ABOUT", url: "about", component: <About /> },
+  { component: <Description /> },
+  { component: <Features /> },
+  { name: "TOKENOMICS", url: "token", component: <Tokenomics /> },
+  { name: "ROADMAP", url: "roadmap", component: <Roadmap /> },
+  { name: "CONTACT US", url: "contact", component: <Contact /> },
 ]
 
 function App() {
@@ -28,29 +28,30 @@ function App() {
           <div className=" mt-5 mb-5 mr-4 h-6 w-7">
             <img src={`${process.env.PUBLIC_URL}/images/logo.png`} alt="logo" className="w-full h-full" />
           </div>
-          <div className="flex space-x-3">
+          <div className="flex space-x-3 flex-wrap">
             {
               headerRoutes.map((r, i) => {
                 console.log(r.url, "_+_+_")
-                return(r?.url !== undefined ?
-                <div className="text-white hover:text-green-300 transition-all cursor-pointer text-sm" key={i}>
-                  <Scrollchor to={"#"+r.url}>
-                    {r.name}
-                  </Scrollchor>
-                </div>
-                :null
-              )})
+                return (r?.url !== undefined ?
+                  <div className="text-white hover:text-green-300 transition-all cursor-pointer text-sm" key={i}>
+                    <Scrollchor to={"#" + r.url}>
+                      {r.name}
+                    </Scrollchor>
+                  </div>
+                  : null
+                )
+              })
             }
           </div>
         </div>
       </div>
       {/* Body */}
       <div className=' '>
-          {headerRoutes.map((r, i) => {
-            return r?.url !== undefined ? <div key={i} id={r.url}>
-              {r.component}
-          </div>: <div key={i}>{r.component}</div>
-          })}
+        {headerRoutes.map((r, i) => {
+          return r?.url !== undefined ? <div key={i} id={r.url}>
+            {r.component}
+          </div> : <div key={i}>{r.component}</div>
+        })}
       </div>
     </div>
   );

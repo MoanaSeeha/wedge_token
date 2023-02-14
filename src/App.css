@@ -368,3 +368,61 @@ td {
     transform: rotate(360deg);
   }
 }
+
+@media only screen and (max-width: 450px) {
+  .mask-tokennomics::after {
+    width: 200px;
+  }
+
+  .mask-tokennomics {
+    width: 200px;
+  }
+
+  .mask-contact::after {
+    width: 200px;
+  }
+  .mask-features::after {
+    width: 200px;
+  }
+
+  .mask-contact {
+    width: 200px;
+  }
+
+  .mask_image::before {
+    width: 200px;
+  }
+
+  .mask-features {
+    width: 200px;
+  }
+}
+
+@media only screen and (max-width: 200px) {
+  .mask-tokennomics::after {
+    width: 100px;
+  }
+
+  .mask-tokennomics {
+    width: 100px;
+  }
+
+  .mask-contact::after {
+    width: 100px;
+  }
+  .mask-features::after {
+    width: 100px;
+  }
+
+  .mask-contact {
+    width: 100px;
+  }
+
+  .mask_image::before {
+    width: 100px;
+  }
+
+  .mask-features {
+    width: 100px;
+  }
+}
