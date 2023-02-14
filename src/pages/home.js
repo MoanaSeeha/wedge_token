@@ -14,7 +14,7 @@ const Home = () => {
             <span>- Buy Any Property in Dubai</span>
           </div>
           <div className='flex flex-wrap'>
-            <div className=' mr-5 my-3'><GradientButton title="DEX-TRADE.COM LAUNCHPAD" onClickBtn={() => {
+            <div className=' mr-5 my-3'><GradientButton title="Wildan-limited LAUNCHPAD" onClickBtn={() => {
 
             }} link="wildan-limited.sumupstore.com" /></div>
             <div className=' mr-5 my-3'><GradientButton title="WHITEPAPER" onClickBtn={() => {
